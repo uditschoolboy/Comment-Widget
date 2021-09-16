@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.replies {
+  margin-left: 5%;
+  background-color: burlywood;
+}
+
+.comment {
+  background-color: beige;
+}
+
+.small-buttons {
+  background: transparent;
+  font-size: small;
+  display: inline;
+  border: none;
+}
+.small-buttons:hover {
+  background: gray;
+}
+.comment-button {
+  background: lightskyblue;
+  border: 1px solid black;
+  color: black;
+  font-size: large;
+  display: block;
+  border-radius: 10%;
+  width: max-content;
+}
